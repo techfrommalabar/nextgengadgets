@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage / Main Catalogue Page -->
+  <url>
+    <loc>https://techfrommalabar.github.io/TechFromMalabar/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- index.html (explicit — some crawlers prefer the full path) -->
+  <url>
+    <loc>https://techfrommalabar.github.io/TechFromMalabar/index.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!--
+    ============================================================
+    ADD FUTURE PAGES BELOW AS YOU CREATE THEM
+    Copy the <url> block and update <loc>, <lastmod>,
+    <changefreq>, and <priority> for each new page.
+
+    Priority guidelines:
+      1.0  = Homepage (only one)
+      0.9  = Core/landing pages
+      0.8  = Category / section pages
+      0.7  = Individual product / article pages
+      0.5  = Supporting pages (About, Contact, FAQ)
+      0.3  = Legal pages (Privacy, Disclaimer, Terms)
+
+    Changefreq guidelines:
+      daily    = Homepage, product catalogue (stock/price changes)
+      weekly   = Category pages, blog posts
+      monthly  = About, FAQ, Contact
+      yearly   = Legal pages (Privacy Policy, Terms)
+    ============================================================
+  -->
+
+  <!-- Founder / About page (referenced in your JSON-LD schema) -->
+  <!--
+  <url>
+    <loc>https://techfrommalabar.github.io/TechFromMalabar/founder.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+  <!-- Example: Privacy Policy page -->
+  <!--
+  <url>
+    <loc>https://techfrommalabar.github.io/TechFromMalabar/privacy.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  -->
+
+  <!-- Example: Disclaimer page -->
+  <!--
+  <url>
+    <loc>https://techfrommalabar.github.io/TechFromMalabar/disclaimer.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  -->
+
+</urlset>
